@@ -20,7 +20,8 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.collect do |ingredient|
+  i = 0 
+  while i < array.length
     if cheese_types.include?(ingredient)
       return ingredient 
     end
