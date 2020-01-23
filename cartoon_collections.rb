@@ -23,7 +23,7 @@ def find_the_cheese(array)# code an argument here
   i = 0 
   while i < array.length
     if cheese_types.include?(array[i])
-      return ingredient 
+      return array[i]
     else 
       i += 1
     end
